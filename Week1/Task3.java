@@ -20,7 +20,28 @@ instead of " !
 
 */
         System.out.print("A \"quoted \"  String is\n \'much\' better if you learn \n the rules of \"escape sequences.\" \n Also, \"\" represent an empty \n String ");
+        /** WAP that prints the following pattern:
 
+*
+
+**
+
+***
+
+****
+
+*/
+        System.out.println("\n * \n ** \n *** \n ***\n ****");
+        /**WAP prints the following pattern:
+
+*********
+
+*********
+
+*********
+
+*********  */
+        System.out.print("\n ********* \n*********\n ********* \n********* aq ");
 
     }
 }
