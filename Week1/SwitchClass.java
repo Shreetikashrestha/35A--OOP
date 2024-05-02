@@ -22,7 +22,7 @@ public class SwitchClass {
                 System.out.println("no words found");
                 break;
 
-
+            
 
         }
     }
