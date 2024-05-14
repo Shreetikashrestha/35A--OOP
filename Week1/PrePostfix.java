@@ -1,4 +1,3 @@
-package Task.Week1;
 
 public class PrePostfix {
     public static void main(String[] args) {
