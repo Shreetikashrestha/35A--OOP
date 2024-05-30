@@ -1,4 +1,4 @@
-package Task.Week1;
+
 
 public class Variable {
     /* instance variable needs object to accessed 
@@ -47,4 +47,5 @@ public class Variable {
         int convertedDoubleValue= (int)newDoubleValue;
         
     
+}
 }

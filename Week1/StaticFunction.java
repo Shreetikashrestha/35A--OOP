@@ -14,6 +14,8 @@ public class StaticFunction {
 
     }
 
+    
+
     /*
      * task 1
      * make a func eligible test

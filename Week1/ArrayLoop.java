@@ -72,16 +72,24 @@ public class ArrayLoop {
         }
         }
 
-        //func
+        // //func
         String[] name={"hello","my name is Shree","how are you"};
 
         Scanner hi = new Scanner(System.in);
         System.out.println("enter the thingss you want to chcek ") ;
         String check = hi.nextLine();
 
-        int index = arrayFinder(name,check)
+        int index = arrayFinder(name,check);
 
 
 
+    }
+    public static int arrayFinder(String[] arr, String name){
+        for(int index = 0; index < arr.length; index ++){
+            if(arr[index] == name){
+                return index;
+            }
+        }
+        return -1;
     }
 }
