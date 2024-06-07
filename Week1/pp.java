@@ -1,6 +1,17 @@
 import java . util.*;
 public class pp {
+    public static void printMyName(String name ){
+        System.out.println("ur name is "+name );
+        return;
+    }
     public static void main(String[] args) {
+
+        Scanner ss = new Scanner(System.in);
+        System.out.println("input enter a name ");
+        String name =ss.nextLine();
+
+        printMyName(name);
+
         // System.out.print("*\n**\n***\n****\n");
         // int a = 10;
         // int b =12;
@@ -77,17 +88,18 @@ public class pp {
             
 
         // }
-        for ( int i =0 ; i<11;i++) {
-            System.out.println(i);
-        }
+        // for ( int i =0 ; i<11;i++) {
+        //     System.out.println(i);
+        // }
 
-        int i = 0 ;
-        while (i<11){
-            System.out.println(i);
-            i=i+1;
-        }
+        // int i = 0 ;
+        // while (i<11){
+        //     System.out.println(i);
+        //     i=i+1;
+        // }
         
 
+        
        
     }
 }
