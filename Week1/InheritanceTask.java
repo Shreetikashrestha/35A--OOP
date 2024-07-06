@@ -10,11 +10,12 @@ public static void main(String[] args) {
     l.fur();
     l.speak();
 
-    
+
 }
 
     
 }
+
 class animal{
     public String name ;
     void speak(){

@@ -53,24 +53,45 @@ public class Practice {
         // }
 
         //loops
-        for (int i = 0 ;i <=100;i++){
-            System.out.println(i);
+        // for (int i = 0 ;i <=100;i++){
+        //     System.out.println(i);
 
-        }   
-        for (int i = 100 ;i >=0;i--){
-            System.out.println(i);
-        }
+        // }   
+        // for (int i = 100 ;i >=0;i--){
+        //     System.out.println(i);
+        // }
 
 
-        for (int out = 1; out <= 5; out++) {
+        // for (int out = 1; out <= 5; out++) {
                 
-                for (int inner = 1; inner < 11; inner++) {
-                    System.out.println(out+"X"+ inner+"="+ out*inner);
+        //         for (int inner = 1; inner < 11; inner++) {
+        //             System.out.println(out+"X"+ inner+"="+ out*inner);
                     
-                }
-            }
+        //         }
+        //     }
 
-        
+    //   Write a JAVA program to check whether a number is divisible by 5 and 11 or not. 
+    // Scanner s = new Scanner(System.in);
+    // System.out.println("enter a num");
+    // int num = s.nextInt();
+    // if (num% 5==0 && num% 11==0){
+    //     System.out.println("divisible");
+    
+    // }else {
+    //     System.out.println("not divisible");
+    // }
+
+ //Write a JAVA program to check whether a number is even or odd.
+//   Scanner sc = new Scanner(System.in);
+//     System.out.println("enter a num");
+//     int y= sc.nextInt();
+//     if (y % 2==0 ){
+//         System.out.println("even");
+//     }
+//     else {
+//         System.out.println("oddd");
+//     }
+    
 
 
 

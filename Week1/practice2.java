@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class practice2 {
     public static void main(String[] args) {
         // System.out.print("*");
@@ -48,6 +50,33 @@ public class practice2 {
                     System.out.println((inner));
                 
             }
+
+
+         
+            Scanner ss =new Scanner (System.in);
+            System.out.println("eneter the size");
+            int size = ss.nextInt();
+
+            int list [] = new int [size];
+
+            for (int i = 0 ; i<size ;i++){
+                System.out.println(list[i]);
+                list[i]= ss.nextInt();
+                
+            }
+            Scanner find = new Scanner(System.in);
+            System.out.println("enter a num which u want to search");
+            int x = find.nextInt();
+
+            if ( x == list[i]){
+                System.out.println("present");
+            }else{
+                System.out.println("absent");
+
+            }
+            
+
+
 
 
 

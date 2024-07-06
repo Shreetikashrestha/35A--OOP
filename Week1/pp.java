@@ -1,16 +1,19 @@
 import java . util.*;
 public class pp {
-    public static void printMyName(String name ){
-        System.out.println("ur name is "+name );
-        return;
-    }
     public static void main(String[] args) {
+        
+    // }
+    // public static void printMyName(String name ){
+    //     System.out.println("ur name is "+name );
+    //     return;
+    // }
+    // public static void main(String[] args) {
 
-        Scanner ss = new Scanner(System.in);
-        System.out.println("input enter a name ");
-        String name =ss.nextLine();
+    //     Scanner ss = new Scanner(System.in);
+    //     System.out.println("input enter a name ");
+    //     String name =ss.nextLine();
 
-        printMyName(name);
+    //     printMyName(name);
 
         // System.out.print("*\n**\n***\n****\n");
         // int a = 10;
@@ -98,10 +101,65 @@ public class pp {
         //     i=i+1;
         // }
         
+        //     Scanner sc = new Scanner (System.in);
+        //     System.out.println("input enter the rows ");
+        //     int rows = sc.nextInt();
+        //     System.out.println("input enter the col ");
+        //     int column = sc.nextInt();
 
+        // int [][] num = new int [rows][column];
+
+        // //input for rows 
+        // for (int i =0 ;i< rows ;i++){
+        //     //columns
+        //     for ( int j= 0 ;j<column;j++ ){
+        //         num [i][j]= sc.nextInt();
+        //     }
+
+        // }
+
+        // //output
+
+        // for (int i =0 ; i<rows;i++){
+        //     for (int j=0; j <column;j++){
+        //         System.out.print(num[i][j] + "  ");
+        //     }
+        //     System.out.println();
+        // }
+
+        Scanner s = new Scanner(System.in);
+        System.out.println("enter a row ");
+        int row = s.nextInt();
+        System.out.println("enter a column ");
+        int column = s.nextInt();
+
+        int num [][]= new int [row][column];
+
+
+        for (int i =0; i<row; i++){
+            for (int j =0 ;j<column ; j++){
+                num[i][j]= s.nextInt();
+            }
+        }
+        System.out.");
+        int x = s.nextInt();
+
+        for (int i =0; i<row; i++){
+            for (int j =0 ;j<column ; j++){
+                if (num[i][j]==x){
+                    System.out.println("found at location"+i+j);
+                }
+            }
+        }
         
        
     }
 }
+
+
+
+
+
+
     
 
