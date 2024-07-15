@@ -1,4 +1,4 @@
-package Task.Week1;
+
 
 public class SwitchClass {
     public static void main(String[] args) {
